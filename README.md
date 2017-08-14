@@ -1,2 +1,2 @@
 # My GitHub homepage!
-Just visit [http://camto.github.io]().
+Just visit [camto.github.io](http://camto.github.io).
