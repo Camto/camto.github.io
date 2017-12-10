@@ -31,10 +31,10 @@ h1 {
 .Panel-Margin-Box {
 	
 	position: absolute;
-	top: 20%;
-	left: 20%;
-	bottom: 20%;
-	right: 20%;
+	top: 15%;
+	left: 15%;
+	bottom: 15%;
+	right: 15%;
 	
 }
 
@@ -44,7 +44,7 @@ h1 {
 	width: 100%;
 	height: 100%;
 	border-radius: 25%;
-	box-shadow: 0 0 4vw 0.25vw black;
+	box-shadow: 0 0 3vw 0.125vw black;
 	background-color: white;
 	
 	transition: width 0.5s, height 0.5s, border-radius 0.5s
