@@ -1,0 +1,61 @@
+h1 {
+	
+	text-align: center;
+	font-size: 4vw;
+	margin: 11%;
+	
+}
+
+* {
+	
+	font-family: courier;
+	
+}
+
+#Panels {
+	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 10%;
+	
+}
+
+.Panel {
+	
+	flex-basis: 16.666%;
+	position: relative;
+	
+}
+
+.Panel-Margin-Box {
+	
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	bottom: 20%;
+	right: 20%;
+	
+}
+
+.Panel-Content-Box {
+	
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border-radius: 25%;
+	box-shadow: 0 0 4vw 0.25vw black;
+	background-color: white;
+	
+	transition: width 0.5s, height 0.5s, border-radius 0.5s
+	
+}
+
+.Panel-Content-Box:hover {
+	
+	width: 225%;
+	height: 150%;
+	border-radius: 11.1% / 16.6%;
+	z-index: 1;
+	
+}
