@@ -9,26 +9,14 @@ $(document).ready(function() {
 			</div>
 		`);
 	}
-	resize_all();
+	square_panels();
 	
 });
 
-$(window).resize(resize_all);
-
-function resize_all() {
-	square_panels();
-	resize_panel_box();
-}
+$(window).resize(square_panels);
 
 function square_panels() {
 	$(".Panel").each(function() {
 		$(this).height($(this).width());
-	});
-}
-
-function resize_panel_box() {
-	$(".Panel-Content-Box").each(function() {
-		//$(this).width($(this).height() * 2);
-		
 	});
 }
