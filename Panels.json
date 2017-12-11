@@ -4,14 +4,21 @@
 		"title": "Wrap",
 		"image": "Wrap.gif",
 		"link": "Wrap",
-		"description": "I N F I N I T E &nbsp; W O R L D S &nbsp; T H A T &nbsp; W R A P &nbsp; A R O U N D ."
+		"description": "I N F I N I T E &nbsp; W O R L D S &nbsp; T H A T &nbsp; W R A P &nbsp; A R O U N D . <i>(Web)</i>"
 	},
 	
 	{
 		"title": "Boosting Platforming",
 		"image": "Boosting Platforming.gif",
 		"link": "http://github.com/Camto/Boosting-Platforming/releases/tag/1.1",
-		"description": "Platforming mechanics test!"
+		"description": "New platforming mechanics to test. <i>(Windows)</i>"
+	},
+	
+	{
+		"title": "Interlaced",
+		"image": "Interlaced.gif",
+		"link": "Interlaced",
+		"description": "Two interlaced worlds must cooperate to win! <i>(Web)</i>"
 	}
 	
 ]
