@@ -11,7 +11,7 @@
 		"title": "Boosting Platforming",
 		"image": "Boosting Platforming.gif",
 		"link": "http://github.com/Camto/Boosting-Platforming/releases/tag/1.1",
-		"description": "New platforming mechanics to test. <i>(Windows)</i>"
+		"description": "New platforming mechanics to test. <i>(Windows or C++ w/ SFML)</i>"
 	},
 	
 	{
@@ -19,6 +19,20 @@
 		"image": "Interlaced.gif",
 		"link": "Interlaced",
 		"description": "Two interlaced worlds must cooperate to win! <i>(Web)</i>"
+	},
+	
+	{
+		"title": "PARTICULLZ",
+		"image": "PARTICULLZ.gif",
+		"link": "PARTICULLZ",
+		"description": "Miniature, custom particle simulation thingie. <i>(Web)</i>"
+	},
+	
+	{
+		"title": "Mouse Shooter",
+		"image": "Mouse Shooter.gif",
+		"link": "Mouse-Shooter",
+		"description": "A bullet hell that uses your computer mouse! <i>(Web)</i>"
 	}
 	
 ]
