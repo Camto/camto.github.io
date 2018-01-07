@@ -33,6 +33,13 @@
 		"image": "Mouse Shooter.gif",
 		"link": "Mouse-Shooter",
 		"description": "A bullet hell that uses your computer mouse! <i>(Web)</i>"
+	},
+	
+	{
+		"title": "Other projects",
+		"image": "Camto.png",
+		"link": "https://github.com/Camto?tab=repositories",
+		"description": "A list of all my GitHub repositories."
 	}
 	
 ]
