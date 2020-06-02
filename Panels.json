@@ -1,38 +1,16 @@
 [
-	
 	{
-		"title": "Wrap",
-		"image": "Wrap.gif",
-		"link": "Wrap",
-		"description": "I N F I N I T E &nbsp; W O R L D S &nbsp; T H A T &nbsp; W R A P &nbsp; A R O U N D . <i>(Web)</i>"
+		"title": "calc=",
+		"image": "calc.gif",
+		"link": "console/calc",
+		"description": "A neat little stack based programming language."
 	},
 	
 	{
-		"title": "Boosting Platforming",
-		"image": "Boosting Platforming.gif",
-		"link": "http://github.com/Camto/Boosting-Platforming/releases/tag/1.1",
-		"description": "New platforming mechanics to test. <i>(Windows or C++ w/ SFML)</i>"
-	},
-	
-	{
-		"title": "Interlaced",
-		"image": "Interlaced.gif",
-		"link": "Interlaced",
-		"description": "Two interlaced worlds must cooperate to win! <i>(Web)</i>"
-	},
-	
-	{
-		"title": "PARTICULLZ",
-		"image": "PARTICULLZ.gif",
-		"link": "PARTICULLZ",
-		"description": "Miniature, custom particle simulation thingie. <i>(Web)</i>"
-	},
-	
-	{
-		"title": "Mouse Shooter",
-		"image": "Mouse Shooter.gif",
-		"link": "Mouse-Shooter",
-		"description": "A bullet hell that uses your computer mouse! <i>(Web)</i>"
+		"title": "Lad",
+		"image": "Lad.png",
+		"link": "https://discord-ladbot.herokuapp.com",
+		"description": "Lad is a cool Discord bot that you can totally add to your server."
 	},
 	
 	{
@@ -41,5 +19,4 @@
 		"link": "https://github.com/Camto?tab=repositories",
 		"description": "A list of all my GitHub repositories."
 	}
-	
 ]
