@@ -2,7 +2,7 @@
 	{
 		"title": "calc=",
 		"image": "calc.gif",
-		"link": "console/calc",
+		"link": "calc/console",
 		"description": "A neat little stack based programming language."
 	},
 	
