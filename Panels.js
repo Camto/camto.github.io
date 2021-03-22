@@ -1,43 +1,69 @@
 $(document).ready(function() {
-	$.getJSON("Panels.json", function(Panels) {
+	Panels = [
+		{
+			"title": "calc=",
+			"image": "calc.gif",
+			"link": "calc/console",
+			"description": "A neat little stack based programming language."
+		},
 		
-		for(let cou = 0; cou < Panels.length; cou++) {
-			
-			let title = Panels[cou].title;
-			let image = Panels[cou].image;
-			let link = Panels[cou].link;
-			let description = Panels[cou].description;
-			
-			$("#Panels").append(`
-				<div class="Panel">
-					<div class="Panel-Margin-Box">
-						 <div class="Panel-Content-Box">
-						 	<a href="${link}"><div class="Panel-Image" style="background-image: url('${"PICS/" + image}')"></div></a>
-							<a class="Panel-Title" href="${link}">${title}</a>
-							<div class="Panel-Description">${description}</div>
-						 </div>
+		{
+			"title": "Lad",
+			"image": "Lad.png",
+			"link": "Lad/Website/",
+			"description": "Lad is a cool Discord bot that you can totally add to your server."
+		},
+		
+		{
+			"title": "cmic",
+			"image": "cmic.png",
+			"link": "cmic",
+			"description": "READERADERE TEHEH CMICMICI"
+		},
+		
+		{
+			"title": "Other projects",
+			"image": "Camto.png",
+			"link": "https://github.com/Camto?tab=repositories",
+			"description": "A list of all my GitHub repositories."
+		}
+	];
+	
+	for(let cou = 0; cou < Panels.length; cou++) {
+		
+		let title = Panels[cou].title;
+		let image = Panels[cou].image;
+		let link = Panels[cou].link;
+		let description = Panels[cou].description;
+		
+		$("#Panels").append(`
+			<div class="Panel">
+				<div class="Panel-Margin-Box">
+					<div class="Panel-Content-Box">
+					<a href="${link}"><div class="Panel-Image" style="background-image: url('${"PICS/" + image}')"></div></a>
+					<a class="Panel-Title" href="${link}">${title}</a>
+					<div class="Panel-Description">${description}</div>
 					</div>
 				</div>
-			`);
-			
-		}
+			</div>
+		`);
 		
-		resize_all();
-		
-		$(".Panel-Content-Box").mouseover(function() {
-			$(this).find(".Panel-Image").stop().animate({
-				width: $(this).parent().width() * 1.51,
-				height: $(this).parent().height() * 1.2
-			}, 200, function() {});
-		});
-		
-		$(".Panel-Content-Box").mouseleave(function() {
-			$(this).find(".Panel-Image").stop().animate({
-				width: $(this).parent().width(),
-				height: $(this).parent().height()
-			}, 200, function() {});
-		});
-		
+	}
+	
+	resize_all();
+	
+	$(".Panel-Content-Box").mouseover(function() {
+		$(this).find(".Panel-Image").stop().animate({
+			width: $(this).parent().width() * 1.51,
+			height: $(this).parent().height() * 1.2
+		}, 200, function() {});
+	});
+	
+	$(".Panel-Content-Box").mouseleave(function() {
+		$(this).find(".Panel-Image").stop().animate({
+			width: $(this).parent().width(),
+			height: $(this).parent().height()
+		}, 200, function() {});
 	});
 });
 
