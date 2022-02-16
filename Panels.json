@@ -21,6 +21,13 @@
 	},
 	
 	{
+		"title": "Elementary, My Dear Wolfram!",
+		"image": "Elementary.png",
+		"link": "Elementary",
+		"description": "A short exploration of the elementary cellular automata"
+	},
+	
+	{
 		"title": "Other projects",
 		"image": "Camto.png",
 		"link": "https://github.com/Camto?tab=repositories",
